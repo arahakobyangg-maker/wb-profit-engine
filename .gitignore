@@ -1,0 +1,38 @@
+# Environment & Secrets (Zero-Trust)
+.env
+.env.*
+!.env.example
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Docker & Local Persistence
+pg_data/
+redis_data/
+
+# Node / Web Workbench Build Artifacts
+node_modules/
+dist/
+dist-ssr/
+*.local
+server.js
+
+# Browser Verification & IDE
+.playwright-cli/
+.idea/
+.vscode/
+.DS_Store
+*.swp
